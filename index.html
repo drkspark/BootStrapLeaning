@@ -13,52 +13,36 @@
     />
   </head>
   <body>
-    <!-- Heading Tags -->
-    <h1>Drk's Page with h1</h1>
-    <h2>Drk's Page with h2</h2>
-    <h3>Drk's Page with h3</h3>
-    <h4>Drk's Page with h4</h4>
-    <h2 class="h4">Drk's Page with h2 tag and h4 class</h2>
+    <!--Buttons -->
+    <h2>Buttons</h2>
+    <button class="btn bg-info">Info Button</button>
+    <button class="btn bg-success">Success Button</button>
 
-    <!-- Display Headings -->
-    <!-- Wite h1.display-1 and press TAB the VS Code will auto-complete it via Emmet Package -->
-    <h1 class="display-1">Display 1 Heading</h1>
-    <h1 class="display-4">Display 4 Heading</h1>
-    <h1 class="display-6">Display 6 Heading</h1>
+    <h2>Link As A Button</h2>
+    <!-- We can use any differnet tag as a Button -->
+    <!-- # in href means we are refering to the same page -->
+    <a href="#" class="btn btn-primary">Primary Anchor Tag</a>
+    <a href="#" class="btn btn-danger">Danger Anchor Tag</a>
 
-    <!-- We can use the same with the paragraph tag too -->
-    <p class="display-1">This is a ParaGraph with Display-1</p>
+    <h3>Button Sizes</h3>
+    <!-- We can change the size of the buttons using -->
+    <button class="btn bg-warning btn-lg">Info Button</button>
+    <button class="btn bg-secondary btn-sm">Success Button</button>
 
-    <!-- lead text & alignment -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <p class="lead">Lorem accusantium dolorum quia vero.</p>
+    <h3>Button Styles</h3>
+    <!-- Outlined Styles -->
+    <button class="btn btn-outline-primary">Outlined Primary Button</button>
+    <button class="btn btn-outline-secondary btn-sm">
+      Outlined Secondary Button
+    </button>
 
-    <!-- text alignment -->
-    <p class="lead text-center">Hello Sparkling's</p>
-    <p class="lead text-start">Hello Sparkling's</p>
-    <p class="lead text-left">Hello Sparkling's</p>
-    <p class="lead text-end">Hello Sparkling's</p>
-
-    <!-- text decoration & font weight -->
-    <p class="text-decoration-underline">this is underlined text</p>
-    <p class="text-decoration-line-through">this is a line throught text</p>
-    <p class="fw-bold">this is a bold text</p>
-    <small>this is a small text</small>
-
-    <!-- text colors -->
-    <p class="text-primary">theme primary color</p>
-    <p class="text-secondary">theme secondary color</p>
-    <p class="text-danger">theme danger color</p>
-    <p class="text-info">theme danger color</p>
-    <p class="text-warning">theme warning color</p>
-    <p class="text-success">theme success color</p>
-    <!-- The muted color means the black shade is removed and it becomes grey -->
-    <p class="text-muted">theme with muted color</p>
-
-    <!-- bg color -->
-    <p class="text-white bg-primary">white text with primary background</p>
-    <p class="text-white bg-danger">white text with primary background</p>
-    <p class="text-white bg-success">white text with primary background</p>
+    <h3>Button Groups</h3>
+    <!-- They are a series of button -->
+    <div class="btn-group">
+      <a href="#" class="btn btn-primary">Button 1</a>
+      <a href="#" class="btn btn-secondary">Button 2</a>
+      <a href="#" class="btn btn-info">Button 3</a>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
